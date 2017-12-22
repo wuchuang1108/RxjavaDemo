@@ -13,5 +13,6 @@ import retrofit2.http.Query;
 
 public interface Api {
     @GET("login/")
+
     Call getData(@Query("name") String name, @Query("password") String pw);
 }
